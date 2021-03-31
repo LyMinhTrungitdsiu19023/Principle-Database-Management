@@ -84,27 +84,6 @@ public class login implements ActionListener{
 
 
 
-  /*  public void actionPerformed(ActionEvent ae){
-
-        try{
-            conn c1 = new conn();
-            String u = t1.getText();
-            String v = t2.getText();
-            
-            String q = "select * from login where username='"+u+"' and password='"+v+"'";
-            
-            ResultSet rs = c1.s.executeQuery(q); 
-            if(rs.next()){
-                new details().f.setVisible(true);
-                f.setVisible(false);
-            }else{
-                JOptionPane.showMessageDialog(null, "Invalid login");
-                f.setVisible(false);
-            }
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-    }*/
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
